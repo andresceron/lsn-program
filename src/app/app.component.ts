@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     HeroComponent,
     BannerComponent,
+    PricingComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
