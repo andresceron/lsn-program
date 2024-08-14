@@ -22,4 +22,9 @@ import { FaqComponent } from './components/faq/faq.component';
 })
 export class AppComponent {
   title = 'lsn-program';
+
+  public clickedNavEvent(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  }
 }
