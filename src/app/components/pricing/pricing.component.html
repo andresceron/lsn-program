@@ -1,17 +1,17 @@
-<section class="tw-py-24">
-  <div class="tw-mx-auto tw-max-w-7xl tw-px-4 sm:tw-px-6 lg:tw-px-8">
+<section class="tw-py-16">
+  <div class="tw-mx-auto tw-max-w-7xl tw-px-4 lg:tw-px-0">
     <div class="tw-mb-12 tw-text-center">
-      <h2 class="tw-font-manrope tw-text-4xl tw-text-center tw-font-bold tw-text-gray-900 tw-mb-12">
+      <h2 class="tw-font-manrope tw-text-5xl tw-text-center tw-font-bold tw-text-primary-darkest tw-mb-12">
         Encuentra el plan perfecto para ti
       </h2>
       <!--Switch-->
       <div class="tw-tabs">
         <div
-          class="tw-flex tw-justify-center tw-items-center tw-bg-gray-100 tw-rounded-full tw-p-1.5 tw-max-w-sm tw-mx-auto"
+          class="tw-flex tw-justify-center tw-items-center tw-bg-gray-light tw-rounded-full tw-p-1.5 tw-max-w-sm tw-mx-auto"
         >
           <a
             href="javascript:void(0)"
-            [ngClass]="activeTab === 'monthly' ? 'tw-bg-indigo-600 tw-text-white' : 'tw-text-gray-400 hover:tw-text-indigo-600'"
+            [ngClass]="activeTab === 'monthly' ? 'tw-bg-primary tw-text-white' : 'tw-text-gray-400 hover:tw-text-primary'"
             class="tw-inline-block tw-w-1/2 tw-transition-all tw-duration-500 tw-rounded-full tw-font-semibold tw-py-3 tw-px-3 lg:tw-px-11 tw-tablink"
             data-tab="tabs-with-background-1"
             role="tab"
@@ -22,7 +22,7 @@
           </a>
           <a
             href="javascript:void(0)"
-            [ngClass]="activeTab === 'quarterly' ? 'tw-bg-indigo-600 tw-text-white' : 'tw-text-gray-400 hover:tw-text-indigo-600'"
+            [ngClass]="activeTab === 'quarterly' ? 'tw-bg-primary tw-text-white' : 'tw-text-gray-400 hover:tw-text-primary'"
             class="tw-inline-block tw-w-1/2 tw-transition-all tw-duration-500 tw-rounded-full tw-font-semibold tw-py-3 tw-px-3 lg:tw-px-11 tw-tablink"
             data-tab="tabs-with-background-2"
             role="tab"
@@ -42,7 +42,7 @@
 
           <div class="tw-grid tw-grid-cols-1 tw-gap-4 sm:tw-grid-cols-2 sm:tw-items-center md:tw-gap-8">
             <div
-              class="tw-rounded-2xl tw-border tw-border-indigo-600 tw-p-6 tw-shadow-sm tw-ring-1 tw-ring-indigo-600 sm:tw-order-last sm:tw-px-8 lg:tw-p-12"
+              class="tw-rounded-2xl tw-border tw-border-primary tw-p-6 tw-shadow-sm tw-ring-1 tw-ring-primary sm:tw-order-last sm:tw-px-8 lg:tw-p-12"
             >
               <div class="tw-text-center">
                 <h2 class="tw-text-3xl tw-font-bold tw-text-gray-900">
@@ -63,7 +63,7 @@
 
                 <li class="tw-flex tw-items-center tw-gap-1">
                   <fa-icon [icon]="['fas', 'check']" class="tw-pr-2"></fa-icon>
-                  <span class="tw-text-gray-700"> Creación de plan nutricional 100% personalizado a tus necesidades y objetivos (con múltiples opciones) </span>
+                  <span class="tw-text-gray-700"> Plan nutricional 100% personalizado </span>
                 </li>
 
                 <li class="tw-flex tw-items-center tw-gap-1">
@@ -93,22 +93,22 @@
 
                 <li class="tw-flex tw-items-center tw-gap-1">
                   <fa-icon [icon]="['fas', 'check']" class="tw-pr-2"></fa-icon>
-                  <span class="tw-text-gray-700"> Actualización de tus planes cada 4 semanas</span>
+                  <span class="tw-text-gray-700"> Actualización de tus planes cada 15 días</span>
                 </li>
               </ul>
 
               <div class="tw-mt-8 tw-flex tw-flex-col md:tw-flex-row tw-space-y-2 md:tw-space-y-0 md:tw-space-x-2 ">
                 <a
-                  class="tw-flex-1 tw-rounded-full tw-border tw-border-indigo-600 tw-bg-white tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-indigo-600 hover:tw-ring-1 hover:tw-ring-indigo-600 focus:tw-outline-none focus:tw-ring active:tw-text-indigo-500"
+                  class="tw-flex-1 tw-rounded-full tw-border tw-border-primary tw-bg-white tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-primary hover:tw-ring-1 hover:tw-ring-primary"
                   (click)="openPlanDetailModal('elite')"
                 >
                   Ver más
                 </a>
                 <a
                   href="#"
-                  class="tw-flex-1 tw-rounded-full tw-border tw-border-indigo-600 tw-bg-indigo-600 tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-indigo-700 focus:tw-outline-none focus:tw-ring active:tw-bg-indigo-800"
+                  class="tw-flex-1 tw-rounded-full tw-border tw-border-primary tw-bg-primary tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-primary-lightest"
                 >
-                  Únete
+                  Únete Ahora
                 </a>
               </div>
             </div>
@@ -133,7 +133,7 @@
 
                 <li class="tw-flex tw-items-center tw-gap-1">
                   <fa-icon [icon]="['fas', 'check']" class="tw-pr-2"></fa-icon>
-                  <span class="tw-text-gray-700"> Creación de plan nutricional 100% personalizado a tus necesidades y objetivos </span>
+                  <span class="tw-text-gray-700"> Plan nutricional 100% personalizado </span>
                 </li>
 
                 <li class="tw-flex tw-items-center tw-gap-1">
@@ -153,22 +153,22 @@
 
                 <li class="tw-flex tw-items-center tw-gap-1">
                   <fa-icon [icon]="['fas', 'check']" class="tw-pr-2"></fa-icon>
-                  <span class="tw-text-gray-700"> Actualización de tu plan cada 4 semanas </span>
+                  <span class="tw-text-gray-700"> Actualización de tu plan cada 30 días </span>
                 </li>
               </ul>
 
               <div class="tw-mt-8 tw-flex tw-flex-col md:tw-flex-row tw-space-y-2 md:tw-space-y-0 md:tw-space-x-2 ">
                 <a
-                  class="tw-flex-1 tw-rounded-full tw-border tw-border-indigo-600 tw-bg-white tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-indigo-600 hover:tw-ring-1 hover:tw-ring-indigo-600 focus:tw-outline-none focus:tw-ring active:tw-text-indigo-500"
+                  class="tw-flex-1 tw-rounded-full tw-border tw-border-primary tw-bg-white tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-primary hover:tw-ring-1 hover:tw-ring-primary"
                   (click)="openPlanDetailModal('rx')"
                 >
                   Ver más
                 </a>
                 <a
                   href="#"
-                  class="tw-flex-1 tw-rounded-full tw-border tw-border-indigo-600 tw-bg-indigo-600 tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-indigo-700 focus:tw-outline-none focus:tw-ring active:tw-bg-indigo-800"
+                  class="tw-flex-1 tw-rounded-full tw-border tw-border-primary tw-bg-primary tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-primary-lightest"
                 >
-                  Únete
+                  Únete Ahora
                 </a>
               </div>
             </div>
@@ -199,7 +199,7 @@
                 @for (step of detailedPlanData[selectedDetailPlan].steps; track step.id; let index = $index) {
                   <li class="tw-flex tw--mx-2">
                     <div class="tw-px-4">
-                        <span class="tw-flex tw-items-center tw-justify-center tw-w-16 tw-h-16 tw-mx-auto tw-text-2xl tw-font-bold tw-text-blue-600 tw-rounded-full tw-font-heading tw-bg-blue-50">
+                        <span class="tw-flex tw-items-center tw-justify-center tw-w-16 tw-h-16 tw-mx-auto tw-text-2xl tw-font-bold tw-text-primary-light tw-rounded-full tw-font-heading tw-bg-secondary">
                           {{ index + 1 }}
                         </span>
                     </div>
@@ -212,7 +212,7 @@
                             {{ detail.title}}
                           </p>
                           <p class="tw-leading-loose tw-text-gray-500 tw-pb-2">
-                            {{ detail.description}}
+                            <!-- {{ detail.description}} -->
                           </p>
                         }
                     </div>
@@ -227,9 +227,9 @@
               <div class="tw-full tw-flex tw-justify-center tw-items-center">
                 <a
                   href="#"
-                  class="tw-w-full sm:tw-w-auto tw-rounded-full tw-border tw-border-indigo-600 tw-bg-indigo-600 tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-indigo-700 focus:tw-outline-none focus:tw-ring active:tw-bg-indigo-800"
+                  class="tw-w-full sm:tw-w-auto tw-rounded-full tw-border tw-border-primary tw-bg-primary tw-px-12 tw-py-3 tw-text-center tw-text-sm tw-font-medium tw-text-white hover:tw-bg-primary-lightest"
                   >
-                  Únete
+                  Únete Ahora
                 </a>
               </div>
           </div>
