@@ -6,6 +6,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { AboutComponent } from './components/about/about.component';
+import { BannerCtaComponent } from './components/banner-cta/banner-cta.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { AboutComponent } from './components/about/about.component';
     PricingComponent,
     FaqComponent,
     AboutComponent,
+    BannerCtaComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
