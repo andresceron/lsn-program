@@ -4,11 +4,11 @@ FROM node:22-alpine AS build
 # Create app directory
 WORKDIR /app
 
-COPY package.json package-lock.json angular.json nginx.conf
-
+COPY ./package*.json ./
+COPY ./angular.json /angular.json
 COPY ./nginx.conf /nginx.conf
 
-RUN npm ci
+RUN npm install
 
 COPY . .
 
