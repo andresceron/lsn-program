@@ -1,5 +1,6 @@
 import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
+import { FAQ_LIST } from '../../constants/faq.constants';
 
 @Component({
   selector: 'app-faq',
@@ -11,14 +12,9 @@ import { Component } from '@angular/core';
   styleUrl: './faq.component.scss'
 })
 export class FaqComponent {
-  isOpen = false;
-  openIndex: number | null = null;
-
-  faqsData = [
-    { id: 1, question: 'Pregunta 1', answer: 'Respuesta 1!', isOpen: false },
-    { id: 2, question: 'Pregunta 2', answer: 'Respuesta 2!', isOpen: false },
-    { id: 3, question: 'Pregunta 3', answer: 'Respuesta 3!', isOpen: false }
-  ];
+  public isOpen = false;
+  public openIndex: number | null = null;
+  public faqsData = FAQ_LIST;
 
   public toggleOpen(index: number) {
     if (this.openIndex === index) {
